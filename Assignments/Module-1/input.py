@@ -1,0 +1,11 @@
+name=input('enter you name :-')
+age=input('enter your age :- ')
+dob=input('enter your dob :-')
+mn=input('enter your mobile no. :-')
+
+print('----------------------------------')
+print('your name is -',name)
+print('your dob is -',dob)
+print('your age is -',age)
+print(' your mobile no. is -',mn)
+print('----------------------------------')
