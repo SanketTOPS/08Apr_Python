@@ -1,0 +1,41 @@
+class sanket:
+    sid:int
+    stech:str
+    
+    def s_getdata(self):
+        self.sid=input("Eneter Sanket's ID:")
+        self.stech=input("Enter Sanket's Tech:")
+
+class nirav(sanket):
+    nid:int
+    ntech:str
+    
+    def n_getdata(self):
+        self.nid=input("Eneter Nirav's ID:")
+        self.ntech=input("Enter Nirav's Tech:")
+
+class ashok(nirav):
+    aid:int
+    atech:str
+    
+    def a_getdata(self):
+        self.aid=input("Eneter Ashok's ID:")
+        self.atech=input("Enter Ashok's Tech:")
+
+class tops(ashok):
+    def printdata(self):
+        print("-------Sanket's Info-------")
+        print("Sanket's ID:",self.sid)
+        print("Sanket's Tech:",self.stech)
+        print("-------Nirav's Info-------")
+        print("Nirav's ID:",self.nid)
+        print("Nirav's Tech:",self.ntech)
+        print("-------Ashok's Info-------")
+        print("Ashok's ID:",self.aid)
+        print("Ashok's Tech:",self.atech)
+        
+tp=tops()
+tp.s_getdata()
+tp.n_getdata()
+tp.a_getdata()
+tp.printdata()
